@@ -7,5 +7,5 @@ import tailwindcss from "@tailwindcss/vite";
 installGlobals();
 
 export default defineConfig({
-  plugins: [remix(), tsconfigPaths(), tailwindcss()],
+  plugins: [tailwindcss(), remix(), tsconfigPaths()],
 });
